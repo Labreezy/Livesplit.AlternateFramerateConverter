@@ -152,8 +152,8 @@ namespace LiveSplit.UI.Components
 
         private int CreateSettingsNode(XmlDocument document, XmlElement parent)
         {
-            return SettingsHelper.CreateSetting(document, parent, "SourceFramerate", srcFramerate) ^
-                SettingsHelper.CreateSetting(document, parent, "AdjFramerate", adjFramerate);
+            return SettingsHelper.CreateSetting(document, parent, "srcFramerate", srcFramerate) ^
+                SettingsHelper.CreateSetting(document, parent, "adjFramerate", adjFramerate);
         }
     }
 
